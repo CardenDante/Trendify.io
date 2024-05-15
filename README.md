@@ -19,3 +19,43 @@ We welcome contributions from the community to help improve Trendify.io. Whether
 - **Documentation**: Contribute to our documentation to make it easier for users and developers to understand and use our platform.
 
 Join us in our mission to redefine the online shopping experience for shoe enthusiasts everywhere. Together, we can create something truly remarkable.
+
+# Cloning the Repository
+
+To clone the Trendify.io frontend repository, follow these steps:
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to store the project.
+
+3. Run the following command to clone the repository:
+
+    ```bash
+    git clone https://github.com/CardenDante/Trendify.io.git
+    ```
+
+## Installing Dependencies
+
+Before running the app, you need to install the necessary dependencies. Trendify is built with React and CSS, and it utilizes `react-router-dom` for routing.
+
+1. Navigate into the project directory:
+
+    ```bash
+    cd trendify.io/frontend
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Running the App
+
+Once the dependencies are installed, you can run the Trendify app locally:
+
+```bash
+npm run dev
+```
+This will start a development server and open Trendify in your default web browser at http://localhost:5173.
+
